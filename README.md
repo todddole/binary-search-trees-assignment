@@ -21,3 +21,13 @@ The project includes two applications:
 ```./gradlew runBibleTree  ```
   
   Recursively searches the tree and prints each node, producing the entire text of the Bible as output.
+
+
+## A note on the translation
+This project uses the Geneva Bible, a non-copywrited translation which was produced in 1599.  
+This translation was brought to America on the Mayflower, and widely used by the Pilgrims and early protestant settlers.  
+The data directory contains two files:
+* geneva.txt is the original text file containing the full text of the Geneva Bible, one verse per line.
+* reordered_geneva.txt contains the full text, but verses are reordered in a sequence that is optimal for producing a balanced tree
+
+For reference, the python script wich produced reordered_geneva.txt is included in the data directory.

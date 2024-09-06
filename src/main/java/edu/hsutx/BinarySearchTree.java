@@ -1,6 +1,14 @@
 package edu.hsutx;
 
 /**
+ * @author Todd Dole
+ * @version 1.0
+ * Starting Code for the CSCI-3323 Binary Search Tree assignment
+ * Students must complete the TODOs and get the tests to pass
+ */
+
+
+/**
  * A Binary Search Tree that takes int key and String value for each node
  * TODO - add further javadoc here including @author and @version tags
  */
